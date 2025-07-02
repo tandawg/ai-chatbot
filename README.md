@@ -15,50 +15,45 @@ Includes a web interface and an HTTP API endpoint for easy local testing and dem
 - Supports sending messages by pressing Enter
 - Logs chat history to `chatlog.txt`
 
----
-
-## Demo
-
-*(Add screenshot if you want)*
 
 ---
 
 ## How to run
 
-1️⃣ Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/ai-chatbot
 cd ai-chatbot
 ```
 
-2️⃣ Install dependencies:
+2. Install dependencies:
 
 ```bash
 go mod tidy
 ```
 
-3️⃣ Run the server:
+3. Run the server:
 
 ```bash
 go run main.go
 ```
 
-4️⃣ Open your browser:
+4. Open your browser:
 
 ```
 http://localhost:8080/
 ```
 
-✅ Type your question and hit **Enter** or click **Send**!
+Type your question and hit **Enter** or click **Send**!
 
 ---
 
 ## Example Questions
 
-✅ How old is the Sun?  
-✅ What is the shape of the Earth?  
-✅ Hello  
+How old is the Sun?  
+What is the shape of the Earth?  
+Hello  
 
 ---
 
